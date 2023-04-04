@@ -10,7 +10,7 @@
   Base
 ========================================================================== */
 body {
-  font-family: 'Noto Sans Malayalam', sans-serif;;
+  font-family: "Open sans", sans-serif;
   color: #000;
 }
 
@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Noto Sans Malayalam", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
@@ -103,7 +103,7 @@ a:hover, a:focus, a:active {
   font-size: 16px;
 }
 .navbar-main li a {
-  font-family: "Noto Sans Malayalam", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   padding: 20px 15px;
   border-bottom: 2px solid transparent;
@@ -137,7 +137,7 @@ a:hover, a:focus, a:active {
   transition: width, 0.3s;
 }
 .carousel-home .carousel-control .fa {
-  font-size: 2em;
+  font-size: 2.5em;
   padding-top: 12px;
 }
 .carousel-home .carousel-control:hover {
@@ -150,8 +150,8 @@ a:hover, a:focus, a:active {
 }
 .carousel-home .carousel-title {
   color: #fff;
-  font-family: "Noto Sans Malayalam", sans-serif;
-  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -569,32 +569,32 @@ form .alert {
 ================================= */
 .table-style-1 thead {
   background: #1f76bd;
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #144d7b;
   color: #fff;
 }
 .table-style-1 td,
 .table-style-1 th {
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #1f76bd;
 }
 
 .table-style-2 thead {
   background: #115c9b;
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #144d7b;
   color: #fff;
 }
 .table-style-2 tbody tr:nth-child(even) {
-  background: #d2d2d2;
+  background: #1f76bd;
   color: #fff;
 }
 .table-style-2 td,
 .table-style-2 th {
-  border-bottom: 1px solid #c2c2c2;
+  border-bottom: 1px solid #1f76bd;
 }
 
 /* Tabs
 ================================= */
 .nav-tabs {
-  border-bottom-color: #c2c2c2;
+  border-bottom-color: #1f76bd;
   margin-bottom: 15px;
 }
 
@@ -610,7 +610,7 @@ form .alert {
 }
 
 .nav-tabs > li > a:hover {
-  border-color: #bababa #bababa #bababa #9a9a9a;
+  border-color: #1f76bd #1f76bd #1f76bd #115c9b;
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -629,7 +629,7 @@ form .alert {
   color: #fff;
 }
 .panel-default > .panel-heading:hover {
-  background: #949494;
+  background: #115c9b;
 }
 
 /* Modal
@@ -638,7 +638,7 @@ form .alert {
   border-radius: 0;
 }
 .modal .modal-header {
-  background: #c0c1c2;
+  background: #1f76bd;
   color: #fff;
 }
 .modal .modal-header .close {
@@ -681,7 +681,7 @@ form .alert {
   right: 5px;
   font-style: 18px;
   display: block;
-  font-family: "Noto Sans Malayalam", sans-serif;
+  font-family: "Poppins", sans-serif;
   bottom: -50px;
   -moz-transition: all, 0.6s;
   -o-transition: all, 0.6s;
@@ -733,10 +733,10 @@ form .alert {
 /* Medium devices (desktops, 992px and Donw) */
 @media (max-width: 992px) {
   .carousel-home .carousel-title {
-    font-size: 18px;
+    font-size: 36px;
   }
   .carousel-home .carousel-subtitle {
-    font-size: 16px;
+    font-size: 18px;
   }
   .carousel-home .btn {
     margin-top: 15px;
@@ -793,18 +793,18 @@ form .alert {
   .navbar-main li:hover .submenu li,
   .navbar-main li:active .submenu li,
   .navbar-main li:focus .submenu li {
-    background: #bababa;
-    border-top-color: #bababa;
+    background: #115c9b;
+    border-top-color: #1f76bd;
   }
 
   .carousel-home .carousel-title {
-    font-size: 12px;
+    font-size: 32px;
   }
   .carousel-home .carousel-subtitle {
-    font-size: 10px;
+    font-size: 16px;
   }
   .carousel-home .carousel-control {
-    background: #bababa;
+    background: #1f76bd;
     height: 40px;
     width: 20px;
     top: 50%;
@@ -822,11 +822,11 @@ form .alert {
 /* Extra Small devices (tablets, 480px and Down) */
 @media (max-width: 480px) {
   .carousel-home .carousel-title {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
   }
   .carousel-home .carousel-subtitle {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
   }
   .carousel-home .carousel-indicators {
