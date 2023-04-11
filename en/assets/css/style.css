@@ -84,6 +84,14 @@ a:hover, a:focus, a:active {
   -webkit-transition: all, 0.05s;
   transition: all, 0.05s;
 }
+
+.float-vertical-align {
+  position: absolute;
+  top: 60%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+
 .navbar-main .submenu li {
   border-top: 1px solid #185b91;
 }
@@ -126,7 +134,7 @@ a:hover, a:focus, a:active {
   width: 100%;
 }
 .carousel-home .carousel-control {
-  background: #fff;
+  background: #bababa;
   height: 80px;
   width: 40px;
   top: 50%;
@@ -760,10 +768,10 @@ form .alert {
 }
 /* Small devices (tablets, 768px and Down) */
 @media (max-width: 768px) {
-  .header-contact {
-    text-align: center;
+ .navbar-top .header-contact li{
+    margin: 0 !important;
   }
-  .header-contact li {
+  .navbar-top .header-contact li .fa {
     margin: 0 !important;
   }
 
@@ -785,6 +793,13 @@ form .alert {
     display: none;
     width: 100%;
   }
+  .float-vertical-align {
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  transform: translateY(-50%);
+  font-family: "Noto Sans Malayalam", sans-serif;
+}
   .navbar-main li:hover .submenu,
   .navbar-main li:active .submenu,
   .navbar-main li:focus .submenu {
@@ -804,7 +819,7 @@ form .alert {
     font-size: 16px;
   }
   .carousel-home .carousel-control {
-    background: #1f76bd;
+    background: #bababa;
     height: 40px;
     width: 20px;
     top: 50%;
