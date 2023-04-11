@@ -452,7 +452,7 @@ a:hover, a:focus, a:active {
 /* Pages/Gallery 
 ================================= */
 .gallery-item {
-  padding: 0;
+  padding: 1px;
   display: block;
   margin: 0;
 }
