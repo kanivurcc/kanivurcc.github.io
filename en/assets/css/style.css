@@ -367,7 +367,7 @@ a:hover, a:focus, a:active {
   content: "";
   height: 1px;
   display: block;
-  background: #115c9b;
+  background: #f0f0f0;
   width: 150px;
   margin: 15px auto;
 }
@@ -376,7 +376,7 @@ a:hover, a:focus, a:active {
 }
 
 .footer-bottom {
-  background: #115c9b;
+  background: #f0f0f0;
   padding: 3px;
 }
 
@@ -384,7 +384,7 @@ a:hover, a:focus, a:active {
   margin-bottom: 5px;
 }
 .footer-form .form-control {
-  background: #115c9b;
+  background: #f0f0f0;
   color: #fff;
   border: 0;
   border-radius: 0;
